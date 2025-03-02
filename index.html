@@ -27,7 +27,7 @@
             <div class="flex justify-center items-center gap-3">
                 <div class="flex justify-center items-center gap-2 bg-blue-100 rounded-full p-3">
                     <img src="assets/checkbox.png" alt="">
-                    <p class="text-[#1E1E1E] text-4xl font-bold">23</p>
+                    <p id="navber-digit" class="text-[#1E1E1E] text-4xl font-bold">23</p>
                 </div>
                 <button>
                     <img class="bg-blue-100 rounded-full p-3" src="assets/theme-btn.png" alt="">
@@ -52,7 +52,7 @@
                         <img class="bg-white rounded-full p-3" src="assets/checkbox.png" alt="">
                         <div>                          
                             <p class="text-[#00303C] font-medium text-xs">Task Assigned</p>
-                            <h2 class="text-[#00303C] font-bold text-3xl">06</h2>
+                            <h2 class="text-[#00303C] font-bold text-3xl">0<span id="head-card-digit">6</span></h2>
                         </div>
                     </div>
                 </div>
@@ -92,10 +92,9 @@
                             <div class="mb-4">
                                 <button class="text-[#00303C] text-xs bg-white px-4 py-3 border-none rounded-lg">ShopEase</button>
                             </div>
-                            <h2 class="font-medium text-2xl text-[#00303C]">Fix Mobile Button Issue </h2>
-                            <div class="bg-white rounded-md p-3 mt-4">
-                                <p class="text-xs text-[#000000] h-11 overflow-hidden text-ellipsis">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                                and ensure onClick works properly</p>
+                            <h2 class="font-medium text-lg text-[#00303C]">Fix Mobile Button Issue </h2>
+                            <div class="bg-white rounded-md p-2 mt-4">
+                                <p class="text-xs text-[#000000]">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly.</p>
                             </div>
                         </div>
 
@@ -105,10 +104,10 @@
                             <!-- Button and Deadline part -->
                             <div class="flex justify-between mt-3">
                                 <div>
-                                    <h4>Deadline</h4>
-                                    <p class="mt-2">21 March 2025</p>
+                                    <h4 class="text-sm">Deadline</h4>
+                                    <p class="text-sm">21 March 2025</p>
                                 </div>
-                                <button class="text-white px-4 py-3 bg-blue-700 text-xs rounded-lg">Completed</button>
+                                <button id="fix-mobile-btn" class="text-white px-4 py-3 bg-blue-700 text-xs rounded-lg">Completed</button>
                             </div>
 
                         </div>    
@@ -124,9 +123,9 @@
                             <div class="mb-4">
                                 <button class="text-[#00303C] text-xs bg-white px-4 py-3 border-none rounded-lg">CloudSync</button>
                             </div>
-                            <h2 class="font-medium text-2xl text-[#00303C]">Add Dark Mode </h2>
+                            <h2 class="font-medium text-lg text-[#00303C]">Add Dark Mode </h2>
                             <div class="bg-white rounded-md p-2 mt-4">
-                                <p class="h-11 overflow-hidden text-ellipsis text-xs text-[#000000]">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+                                <p class="overflow-hidden text-ellipsis text-xs text-[#000000]">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly.</p>
                             </div>
                         </div>
 
@@ -136,10 +135,10 @@
                             <!-- Button and Deadline part -->
                             <div class="flex justify-between mt-3">
                                 <div>
-                                    <h4>Deadline</h4>
-                                    <p class="mt-2">21 March 2025</p>
+                                    <h4 class="text-sm">Deadline</h4>
+                                    <p class="text-sm">21 March 2025</p>
                                 </div>
-                                <button class="text-white px-4 py-3 bg-blue-700 text-xs rounded-lg">Completed</button>
+                                <button id="btn-2" class="text-white px-4 py-3 bg-blue-700 text-xs rounded-lg">Completed</button>
                             </div>
 
                         </div>    
@@ -154,10 +153,9 @@
                             <div class="mb-4">
                                 <button class="text-[#00303C] text-xs bg-white px-4 py-3 border-none rounded-lg">SwiftPay</button>
                             </div>
-                            <h2 class="font-medium text-2xl text-[#00303C]">Optimize  Home page </h2>
+                            <h2 class="font-medium text-lg text-[#00303C]">Optimize  Home page </h2>
                             <div class="bg-white rounded-md p-2 mt-4">
-                                <p class="text-ellipsis text-xs text-[#000000]">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                                and ensure onClick works properly</p>
+                                <p class="text-ellipsis text-xs text-[#000000]">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly.</p>
                             </div>
                         </div>
 
@@ -167,10 +165,10 @@
                             <!-- Button and Deadline part -->
                             <div class="flex justify-between mt-3">
                                 <div>
-                                    <h4>Deadline</h4>
-                                    <p class="mt-2">21 March 2025</p>
+                                    <h4 class="text-sm">Deadline</h4>
+                                    <p class="text-sm">21 March 2025</p>
                                 </div>
-                                <button class="text-white px-4 py-3 bg-blue-700 text-xs rounded-lg">Completed</button>
+                                <button id="btn-3" class="text-white px-4 py-3 bg-blue-700 text-xs rounded-lg">Completed</button>
                             </div>
 
                         </div>    
@@ -184,10 +182,9 @@
                             <div class="mb-4">
                                 <button class="text-[#00303C] text-xs bg-white px-4 py-3 border-none rounded-lg">Meta</button>
                             </div>
-                            <h2 class="font-medium text-2xl text-[#00303C]">Add new emoji 🤲 </h2>
+                            <h2 class="font-medium text-lg text-[#00303C]">Add new emoji 🤲 </h2>
                             <div class="bg-white rounded-md p-2 mt-4">
-                                <p class="text-ellipsis text-xs text-[#000000]">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                                and ensure onClick works properly</p>
+                                <p class="text-ellipsis text-xs text-[#000000]">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly.</p>
                             </div>
                         </div>
 
@@ -197,10 +194,10 @@
                             <!-- Button and Deadline part -->
                             <div class="flex justify-between mt-3">
                                 <div>
-                                    <h4>Deadline</h4>
-                                    <p class="mt-2">21 March 2025</p>
+                                    <h4 class="text-sm">Deadline</h4>
+                                    <p class="text-sm">21 March 2025</p>
                                 </div>
-                                <button class="text-white px-4 py-3 bg-blue-700 text-xs rounded-lg">Completed</button>
+                                <button id="btn-4" class="text-white px-4 py-3 bg-blue-700 text-xs rounded-lg">Completed</button>
                             </div>
 
                         </div>    
@@ -215,10 +212,9 @@
                             <div class="mb-4">
                                 <button class="text-[#00303C] text-xs bg-white px-4 py-3 border-none rounded-lg">Google LLC</button>
                             </div>
-                            <h2 class="font-medium text-2xl text-[#00303C]">Integrate OpenAI API </h2>
+                            <h2 class="font-medium text-lg text-[#00303C]">Integrate OpenAI API </h2>
                             <div class="bg-white rounded-md p-2 mt-4">
-                                <p class="text-ellipsis text-xs text-[#000000]">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                                and ensure onClick works properly</p>
+                                <p class="text-ellipsis text-xs text-[#000000]">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly.</p>
                             </div>
                         </div>
 
@@ -228,10 +224,10 @@
                             <!-- Button and Deadline part -->
                             <div class="flex justify-between mt-3">
                                 <div>
-                                    <h4>Deadline</h4>
-                                    <p class="mt-2">21 March 2025</p>
+                                    <h4 class="text-sm">Deadline</h4>
+                                    <p class="text-sm">21 March 2025</p>
                                 </div>
-                                <button class="text-white px-4 py-3 bg-blue-700 text-xs rounded-lg">Completed</button>
+                                <button id="btn-5" class="text-white px-4 py-3 bg-blue-700 text-xs rounded-lg">Completed</button>
                             </div>
 
                         </div>    
@@ -245,10 +241,9 @@
                             <div class="mb-4">
                                 <button class="text-[#00303C] text-xs bg-white px-4 py-3 border-none rounded-lg">Glassdoar</button>
                             </div>
-                            <h2 class="font-medium text-2xl text-[#00303C]">Improve Job searching </h2>
+                            <h2 class="font-medium text-lg text-[#00303C]">Improve job searching</h2>
                             <div class="bg-white rounded-md p-2 mt-4">
-                                <p class="text-ellipsis text-xs text-[#000000]">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                                and ensure onClick works properly</p>
+                                <p class="text-ellipsis text-xs text-[#000000]">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly.</p>
                             </div>
                         </div>
 
@@ -258,10 +253,10 @@
                             <!-- Button and Deadline part -->
                             <div class="flex justify-between mt-3">
                                 <div>
-                                    <h4>Deadline</h4>
-                                    <p class="mt-2">21 March 2025</p>
+                                    <h4 class="text-sm">Deadline</h4>
+                                    <p class="text-sm">21 March 2025</p>
                                 </div>
-                                <button class="text-white px-4 py-3 bg-blue-700 text-xs rounded-lg">Completed</button>
+                                <button id="btn-6" class="text-white px-4 py-3 bg-blue-700 text-xs rounded-lg">Completed</button>
                             </div>
 
                         </div>    
@@ -283,5 +278,8 @@
            <div class="pt-3"></div>
         </section>
     </section>
+
+    <script src="utility_js/main.js"></script>
+    <script src="utility_js/utility.js"></script>
 </body>
 </html>
