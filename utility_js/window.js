@@ -2,7 +2,6 @@
 
 
 
-
 // Main Card Button-1
 document.getElementById('fix-mobile-btn').addEventListener('click', function(){
     
@@ -12,7 +11,7 @@ document.getElementById('fix-mobile-btn').addEventListener('click', function(){
 
 
     if(headcardNumber === 0){
-        alert("all task complete")
+        alert("You have completed all the current task")
     }
 })
     
@@ -26,7 +25,7 @@ document.getElementById('btn-2').addEventListener('click', function(){
 
 
     if(headcardNumber === 0){
-        alert("all task complete")
+        alert("You have completed all the current task")
     }
 })
    
@@ -40,7 +39,7 @@ document.getElementById('btn-3').addEventListener('click', function(){
 
 
     if(headcardNumber === 0){
-        alert("all task complete")
+        alert("You have completed all the current task")
     }
 })
 
@@ -53,7 +52,7 @@ document.getElementById('btn-4').addEventListener('click', function(){
 
 
     if(headcardNumber === 0){
-        alert("all task complete")
+        alert("You have completed all the current task")
     }
 })
 
@@ -66,7 +65,7 @@ document.getElementById('btn-5').addEventListener('click', function(){
 
 
     if(headcardNumber === 0){
-        alert("all task complete")
+        alert("You have completed all the current task")
     }
 })
 
@@ -79,6 +78,6 @@ document.getElementById('btn-6').addEventListener('click', function(){
 
 
     if(headcardNumber === 0){
-        alert("all task complete")
+        alert("You have completed all the current task")
     }
 })
