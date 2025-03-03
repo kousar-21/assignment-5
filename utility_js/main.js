@@ -35,6 +35,10 @@ document.getElementById('fix-mobile-btn').addEventListener('click',function(even
     const headNumber = getCalculation(headCards);
     document.getElementById('head-card-digit').innerText = headNumber;
 
+    // if( headCards === 1){
+    //     alert("all task complete")
+    // }
+
 
 })
 

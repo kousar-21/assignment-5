@@ -13,8 +13,6 @@ const navberDigit = getAlertandValueByID("navber-digit");
 const headCards = getAlertandValueByID("head-card-digit");
 
 
-
-
 // catch Button part
 const mainCard = document.getElementById('main-card');
 
@@ -31,21 +29,21 @@ for(const card of cards){
     // console.log(btn);
     btn.addEventListener('click', function(){
         alert('Board Updated Successfully')
+        
         btn.setAttribute("disabled", true);
 
     })
-
-    
+     
 }
 
 
 
 // catch button - 6
 const carsLast = document.getElementsByClassName('card-6');
-console.log(carsLast)
+// console.log(carsLast)
 
 for(const last of carsLast){
-    console.log(last)
+    // console.log(last)
     const btnLast = last.querySelector("button");
     btnLast.addEventListener('click', function(){
         alert('Board Updated Successfully')
