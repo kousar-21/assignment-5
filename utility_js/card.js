@@ -1,8 +1,9 @@
 
 
-// const mobileBtnIssue = document.querySelector('h2').textContent;
-// console.log(mobileBtnIssue);
 
+// date part
+// const date = new Date();
+// document.getElementById('navber-date').innerHTML = date;
 
 
 // Navber part
@@ -19,7 +20,7 @@ const mainCard = document.getElementById('main-card');
 
 
 const cards = document.getElementsByClassName('card');
-console.log(cards);
+// console.log(cards);
 
 // history
 const clearHistory = document.getElementById('history');
@@ -27,7 +28,7 @@ const clearHistory = document.getElementById('history');
 for(const card of cards){
     // console.log(card);
     const btn = card.querySelector("button");
-    console.log(btn);
+    // console.log(btn);
     btn.addEventListener('click', function(){
         alert('Board Updated Successfully')
         btn.setAttribute("disabled", true);
@@ -35,6 +36,20 @@ for(const card of cards){
     })
 
     
+}
 
-    // console.log(btn);
+
+
+// catch button - 6
+const carsLast = document.getElementsByClassName('card-6');
+console.log(carsLast)
+
+for(const last of carsLast){
+    console.log(last)
+    const btnLast = last.querySelector("button");
+    btnLast.addEventListener('click', function(){
+        alert('Board Updated Successfully')
+        btnLast.setAttribute("disabled", true)
+        
+    })
 }

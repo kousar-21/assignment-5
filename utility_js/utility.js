@@ -1,5 +1,13 @@
 
 
+document.getElementById('Discover-card').addEventListener('click', function(){
+    window.location.href = "./text.html"
+})
+
+
+
+
+
 document.getElementById("history-btn").addEventListener('click', function(){
     document.getElementById('history').innerHTML = "";
 })
@@ -26,11 +34,4 @@ function getCalculation2(num){
     return sum;
 }
 
-
-
-
-// function disabledBtn(this){
-//     const button = document.getElementById(this).disabled = true;
-//     console.log(button);
-// }
 
