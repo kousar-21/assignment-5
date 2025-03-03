@@ -1,6 +1,9 @@
 
 
 
+
+
+
 // Main Card Button-1
 document.getElementById('fix-mobile-btn').addEventListener('click',function(event){
     event.preventDefault();
@@ -11,13 +14,29 @@ document.getElementById('fix-mobile-btn').addEventListener('click',function(even
     // history
     const clearHistory = document.getElementById('history');
 
+        
+    // For Time Part
+    const dates = new Date();
+    console.log(dates);
+
+    let hours = dates.getHours();
+    console.log(hours)
+
+    let mins = dates.getMinutes();
+    console.log(mins)
+
+    let seconds = dates.getSeconds();
+    console.log(seconds);
+    
+
+
     const div = document.createElement('div')
     div.classList.add('bg-blue-200')
     div.classList.add('rounded-md')
     div.classList.add('p-3')
     div.classList.add('mb-3')
     div.innerHTML = `
-    You have complete the task ${mobileBtnIssue} at 12:48 pm
+    You have complete the task ${mobileBtnIssue} at ${hours}:${mins}:${seconds}
 
     `
     clearHistory.appendChild(div)
@@ -55,6 +74,19 @@ document.getElementById('btn-2').addEventListener('click',function(event){
 
     // history
     const clearHistory = document.getElementById('history');
+    
+    // For Time Part
+    const dates = new Date();
+    console.log(dates);
+
+    let hours = dates.getHours();
+    console.log(hours)
+
+    let mins = dates.getMinutes();
+    console.log(mins)
+
+    let seconds = dates.getSeconds();
+    console.log(seconds);
 
     const div = document.createElement('div')
     div.classList.add('bg-blue-200')
@@ -62,7 +94,7 @@ document.getElementById('btn-2').addEventListener('click',function(event){
     div.classList.add('p-3')
     div.classList.add('mb-3')
     div.innerHTML = `
-    You have complete the task ${mobileBtnIssue} at 12:48 pm
+    You have complete the task ${mobileBtnIssue} at ${hours}:${mins}:${seconds}
 
     `
     clearHistory.appendChild(div)
@@ -95,6 +127,19 @@ document.getElementById('btn-3').addEventListener('click',function(event){
 
     // history
     const clearHistory = document.getElementById('history');
+    
+    // For Time Part
+    const dates = new Date();
+    console.log(dates);
+
+    let hours = dates.getHours();
+    console.log(hours)
+
+    let mins = dates.getMinutes();
+    console.log(mins)
+
+    let seconds = dates.getSeconds();
+    console.log(seconds);
 
     const div = document.createElement('div')
     div.classList.add('bg-blue-200')
@@ -102,7 +147,7 @@ document.getElementById('btn-3').addEventListener('click',function(event){
     div.classList.add('p-3')
     div.classList.add('mb-3')
     div.innerHTML = `
-    You have complete the task ${mobileBtnIssue} at 12:48 pm
+    You have complete the task ${mobileBtnIssue} at ${hours}:${mins}:${seconds}
 
     `
     clearHistory.appendChild(div)
@@ -136,13 +181,27 @@ document.getElementById('btn-4').addEventListener('click',function(event){
     // history
     const clearHistory = document.getElementById('history');
 
+    
+    // For Time Part
+    const dates = new Date();
+    console.log(dates);
+
+    let hours = dates.getHours();
+    console.log(hours)
+
+    let mins = dates.getMinutes();
+    console.log(mins)
+
+    let seconds = dates.getSeconds();
+    console.log(seconds);
+
     const div = document.createElement('div')
     div.classList.add('bg-blue-200')
     div.classList.add('rounded-md')
     div.classList.add('p-3')
     div.classList.add('mb-3')
     div.innerHTML = `
-    You have complete the task ${mobileBtnIssue} at 12:48 pm
+    You have complete the task ${mobileBtnIssue} at ${hours}:${mins}:${seconds}
 
     `
     clearHistory.appendChild(div)
@@ -176,13 +235,27 @@ document.getElementById('btn-5').addEventListener('click',function(event){
     // history
     const clearHistory = document.getElementById('history');
 
+    
+    // For Time Part
+    const dates = new Date();
+    console.log(dates);
+
+    let hours = dates.getHours();
+    console.log(hours)
+
+    let mins = dates.getMinutes();
+    console.log(mins)
+
+    let seconds = dates.getSeconds();
+    console.log(seconds);
+
     const div = document.createElement('div')
     div.classList.add('bg-blue-200')
     div.classList.add('rounded-md')
     div.classList.add('p-3')
     div.classList.add('mb-3')
     div.innerHTML = `
-    You have complete the task ${mobileBtnIssue} at 12:48 pm
+    You have complete the task ${mobileBtnIssue} at ${hours}:${mins}:${seconds}
 
     `
     clearHistory.appendChild(div)
@@ -216,6 +289,19 @@ document.getElementById('btn-6').addEventListener('click',function(event){
 
     // history
     const clearHistory = document.getElementById('history');
+    
+    // For Time Part
+    const dates = new Date();
+    console.log(dates);
+
+    let hours = dates.getHours();
+    console.log(hours)
+
+    let mins = dates.getMinutes();
+    console.log(mins)
+
+    let seconds = dates.getSeconds();
+    console.log(seconds);
 
     const div = document.createElement('div')
     div.classList.add('bg-blue-200')
@@ -223,7 +309,7 @@ document.getElementById('btn-6').addEventListener('click',function(event){
     div.classList.add('p-3')
     div.classList.add('mb-3')
     div.innerHTML = `
-    You have complete the task ${mobileBtnIssue} at 12:48 pm
+    You have complete the task ${mobileBtnIssue} at ${hours}:${mins}:${seconds}
 
     `
     clearHistory.appendChild(div)

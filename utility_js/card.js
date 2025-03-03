@@ -4,19 +4,28 @@
 // date part
     const dates = new Date();
     console.log(dates);
+
     let year = dates.getFullYear();
-    let month = dates.getMonth()+1;
+    console.log(year);
+
+    let month = dates.getMonth();
+    let mash = ['Jan','Feb','Mar','Apr','May','jun','july','Aug','Sep','Oct','Nov','Dec']
+    let thisMonth = mash[month];
+    console.log(thisMonth)
+    // console.log(mash[month]);
+
     let date = dates.getDate();
-
-    console.log(year,',',month,',',date);
+    console.log(date);
     
-
     let day = dates.getDay();
-    console.log(day)
-    let din = ['sun','mon','tue','wed','thu','fry','sat']
-    console.log("Today is:", din[day]);
+    let dins = ['Sun','Mon','Tue','Wed','Thu','Fry','Sat']
+    let din = dins[day];
+    console.log(din)
+    // console.log(din[day]);
     
-    // document.getElementById('navber-date').innerHTML = date;
+    document.getElementById('navber-date').innerHTML = `
+    ${din}, ${thisMonth} ${date} ${year}
+    `;
 
 
 // Navber part
