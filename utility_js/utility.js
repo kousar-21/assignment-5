@@ -35,3 +35,19 @@ function getCalculation2(num){
 }
 
 
+
+document.getElementById('backround-img').addEventListener('click', function(){
+    console.log('working')
+
+    document.body.style.backgroundColor = randomColor();
+
+})
+
+function randomColor(){
+    let num1 = Math.round(Math.random() * 255);
+    let num2 = Math.round(Math.random() * 255);
+    let num3 = Math.round(Math.random() * 255);
+    // return 'rgb(${num1}, ${num2}, ${num3})';
+    return `rgb(${num1}, ${num2}, ${num3})`;
+    
+}

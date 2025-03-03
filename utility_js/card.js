@@ -1,9 +1,22 @@
 
-
+// month +1 because it's count start from zero not one.
 
 // date part
-// const date = new Date();
-// document.getElementById('navber-date').innerHTML = date;
+    const dates = new Date();
+    console.log(dates);
+    let year = dates.getFullYear();
+    let month = dates.getMonth()+1;
+    let date = dates.getDate();
+
+    console.log(year,',',month,',',date);
+    
+
+    let day = dates.getDay();
+    console.log(day)
+    let din = ['sun','mon','tue','wed','thu','fry','sat']
+    console.log("Today is:", din[day]);
+    
+    // document.getElementById('navber-date').innerHTML = date;
 
 
 // Navber part
