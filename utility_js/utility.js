@@ -14,7 +14,17 @@ function getAlertandValueByID(id){
 }
 
 
+function getCalculation(number){
+   
+    let sum = number - 1;
+    return sum;
+       
+}
 
+function getCalculation2(num){
+    let sum = num + 1;
+    return sum;
+}
 
 
 
@@ -24,6 +34,3 @@ function getAlertandValueByID(id){
 //     console.log(button);
 // }
 
-// function getCalculation(){
-//     console.log('this function okay')
-// }
